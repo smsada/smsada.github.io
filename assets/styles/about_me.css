@@ -1,0 +1,94 @@
+.page-break {
+    height: 1pt;
+    width: 90%;
+    color: #707070;
+    opacity: 0;
+    animation: views 1s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/* .page-break-vert {
+    opacity: 0;
+    height: 100%;
+    width: 1px;
+    color: #707070; 
+    animation: views 1s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+.Profile {
+    height: 30%;
+    width: 30%;
+}
+.Picture {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 5%;
+    animation: views 1s;
+    animation-iteration-count: 1;
+}
+.Top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    left: -20%;
+    top: -20%;
+    align-items: center;
+}
+.vert-line {
+    width: 1px;
+    height: 350px;
+    background: #707070;
+    display: flexbox;
+    position: relative;
+    left: -10%;
+    top: 2px;
+    opacity: 0;
+    animation: views 1s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.Content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0%;
+}
+.About-Me {
+    opacity: 0;
+    font-size: 35pt;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    animation: views 1s;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.short-bit {
+    opacity: 0;
+    animation: views 1s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes views {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

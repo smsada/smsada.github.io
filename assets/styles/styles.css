@@ -1,0 +1,50 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI';
+    color: #4c5764;
+    box-sizing: border-box;
+}
+#sig-logo {
+    height: 50px;
+    width: 50px;
+    transform: scale(.2);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.topbar {
+    display: flex;
+    padding: 2.5% 0%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.topbar-item-word {
+    opacity: 0.2;
+    font-family: 'Segoe UI', sans-serif;
+    color: #707070;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    padding: 0px 5px 10px 30px;
+    align-items: center;
+    left: -5%;
+}
+.topbar-item-word:hover {
+    opacity: 1;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+.a {
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: #707070;
+}
