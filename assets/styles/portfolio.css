@@ -7,3 +7,68 @@ html, body {
     color: #4c5764;
     box-sizing: border-box;
 }
+#gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.pict {
+    /* object-fit: cover; */
+    height: 75px;
+    width: 75px;
+    /* overflow: hidden; */
+    /* scale: 50%; */
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#one {
+    background-image: url("../img/1.jpg");
+}
+#two {
+    background-image: url("../img/2.jpg");
+}
+#three {
+    background-image: url("../img/3.jpg");
+}
+#four {
+    background-image: url("../img/4.jpg");
+}
+#five {
+    background-image: url("../img/5.jpg");
+}
+#six {
+    background-image: url("../img/6.jpg");
+}
+#seven {
+    background-image: url("../img/8.jpg");
+}
+#eight {
+    background-image: url("../img/9.jpg");
+}
+#nine {
+    background-image: url("../img/10.jpg");
+}
+#ten {
+    background-image: url("../img/11.jpg");
+}
+#eleven {
+    background-image: url("../img/12.jpg");
+}
+#twelve {
+    background-image: url("../img/13.jpg");
+}
+#thirteen {
+    background-image: url("../img/14.jpg");
+}
+#fourteen {
+    background-image: url("../img/15.jpg");
+}
