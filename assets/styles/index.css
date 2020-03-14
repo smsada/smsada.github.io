@@ -1,3 +1,11 @@
+h1.Temp {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @keyframes pulse-out {
 	0% {
 		transform: scale(0.6);
@@ -32,10 +40,13 @@
 	}
 }
 
+/* Circle Design */
+
 .circle {
     position: absolute;
     left: 45%;
     top: 44%;
+    /* transform-style: preserve-3d; */
 }
 .pulsating-circle {
     background-color: #2397FE;
@@ -105,4 +116,107 @@
 #con {
     left: 25%;
     top: 70%;
+}
+
+/* Box design */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.box-cont{
+    display: flex;
+	flex-direction: column;	
+    position: relative;
+    /* top: -13vh; */
+    top: -1vh;
+}
+.box-top-cont{
+    display: flex;
+	flex-direction: row;	
+    position: relative;
+    padding: 0%;
+}
+.box-bot-cont{
+    display: flex;
+	flex-direction: row;	
+    position: relative;
+    padding: 0%;
+}
+#box-layout {
+    position: relative;
+}
+.box-item{
+    height: 43.5vh;
+    width: 50vw;
+    object-fit: cover;
+    /* Somehow fix so that the image 
+    scales to fit the container but 
+    maintains aspect ratio */
+    opacity: 80%;
+    font-size: 0;
+    margin: 0;
+    background-color: black;
+}
+.box-item:hover {
+	opacity: 1;
+	transition-duration: 0.2s;
+}
+.box-item-title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    -webkit-text-stroke: .5px black;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+#top-left-text{
+    top: 21.75vh;
+    left: 25vw;
+}
+#top-right-text{
+    top: 21.75vh;
+    left: 75vw;
+}
+#bot-left-text{
+    top: 21.75vh;
+    left: 25vw;
+}
+#bot-right-text{
+    top: 21.75vh;
+    left: 75vw;
+}
+/* Animation below looks corny, find a way to make it look nice */
+/* #top-left {
+    opacity: 1;
+    animation: fade-in 1.2s;
+}
+#top-right {
+    opacity: 1;
+    animation: fade-in 1.2s;
+    animation-delay: .1s;
+}
+#bot-left {
+    opacity: 1;
+    animation: fade-in 1.2s;
+    animation-delay: .2s;
+}
+#bot-right {
+    opacity: 1;
+    animation: fade-in 1.2s;
+    animation-delay: .3s;
+} */
+
+/* Intro Animation */
+.white-cover{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+    /* animation: load-screen;
+    animation-duration: .5s; */
 }

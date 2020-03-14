@@ -1,0 +1,123 @@
+/* .content {
+    display: flex;
+} */
+
+.Professional-Experience {
+    opacity: 1;
+    font-size: 2.5em;
+    font-weight: bold;
+    /* position: relative; */
+    position: relative;
+    left: 10%;
+}
+.title {
+    opacity: 1;
+    font-family: 'Segoe UI', sans-serif;
+    color: #707070;
+	font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.headers {
+	display: flex;
+	flex-direction: column;	
+	position: relative;
+    /* top: 100%; */
+    justify-content: center;
+    top: 50%;
+    transform: translate(0%, 20%);
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    /* padding: 0px 5px 10px 30px; */
+    padding: 0% 0% 5% 0%;
+    align-items: center;
+    left: 0%;
+    top: 100%;
+}
+.header:hover {
+    text-decoration: none;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.itemContainer {
+    padding-top: 3vh;
+    padding-left: 15vw;
+    max-width: 70vw;
+}
+.top-half {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: start;
+}
+.top-half2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    top: -1vh;
+    left: 1vw;
+}
+.top-half3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+    /* need to place each item on start and end of the container */
+}
+.text {
+    opacity: 1;
+    font-family: 'Segoe UI', sans-serif;
+    color: #707070;
+    text-decoration: none;
+}
+.logo {
+    width: auto;
+    height: 4em;
+}
+.comp-name {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.top-half3 {
+    font-size: 1.7em;
+}
+/* .position {
+    display: flex;
+    justify-content: end;
+} */
+.dates {
+    padding-left: 2vw;
+}
+.bot-half {
+    padding-left: 2vw;
+    font-size: 1.3em;
+}
+.bullet {
+    overflow: auto;
+}
+
+
+.footers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.footer {
+    padding: 2vw;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.footer:hover {
+    text-decoration: underline;
+}

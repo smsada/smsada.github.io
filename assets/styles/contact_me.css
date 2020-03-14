@@ -1,4 +1,4 @@
-html, body {
+/* html, body {
     height: 100vh;
     width: 100vw;
     margin: 0;
@@ -6,4 +6,109 @@ html, body {
     font-family: 'Roboto';
     color: #4c5764;
     box-sizing: border-box;
+} */
+/* TEMPORARY */
+/* .Construct{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    font-weight: bold
+} */
+/* TEMPORARY */
+.Contact-Me {
+    opacity: 1;
+    font-size: 2.5em;
+    font-weight: bold;
+    /* position: relative; */
+    position: relative;
+    left: 10%;
+}
+.main-body {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* left: 10%; */
+    justify-content: center;
+    /* text-align: center; */
+}
+.column {
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: column;
+    /* padding: 0%, 10%; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 10%;
+}
+#left.column {
+    padding: 0%, 0%, 10%, 0%;
+    position: relative;
+    /* display: flex; */
+}
+#right.column {
+    position: relative;
+    margin-left: 10%;
+    /* display: flex; */
+}
+.row {
+    /* position: relative; */
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    /* padding: 0%, 0%, 10%, 0%; */
+    /* top: 10%; */
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+    /* align-content: center; */
+}
+
+.textInfo {
+    /* transform: translate(0%, -10%%); */
+    font-size: 2em;
+    margin-top: -2%;
+}
+.bottom#row {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+}
+
+.igIcon {
+    height: 2em;
+    width: 2em;
+    position: relative;
+    /* scale: 5%; */
+}
+#ig-handle {
+    font-size: 2em;
+    position: relative;
+    /* transform: translate(0%, 100%); */
+}
+.fbIcon {
+    height: 2em;
+    width: 2em;
+    position: relative;
+}
+#facebook-name {
+    font-size: 2em;
+}
+.linkedInIcon {
+    height: 2em;
+    width: 2em;
+    position: relative;
+}
+#linkedIn-name {
+    font-size: 2em;
+}
+.gmailIcon {
+    /* height: 2em; */
+    max-width: 2em;
+    position: relative;
+}
+#gmail-name {
+    font-size: 2em;
 }
